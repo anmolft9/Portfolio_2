@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+div {
+  color: white;
+}
+
+.hero {
+  /* width: 150vw;
+  height: 150vh; */
+  width: 100%;
+  min-height: 100vh;
+
+  background: url(/Assets/home-bg.jpg) no-repeat repeat center;
+}
+
+.picture {
+  min-height: 30vh;
+}
+
+#navLinks {
+  justify-content: flex-end;
+}
