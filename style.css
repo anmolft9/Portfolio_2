@@ -1,9 +1,6 @@
 body {
   margin: 0;
 }
-div {
-  color: white;
-}
 
 .hero {
   /* width: 150vw;
@@ -18,6 +15,26 @@ div {
   min-height: 30vh;
 }
 
-#navLinks {
-  justify-content: flex-end;
+/* about me */
+.abt {
+  border-bottom: 1px solid black;
+}
+
+ul > li {
+  display: flex;
+}
+
+.skills {
+  background: rgb(200, 197, 197);
+}
+
+.icons i {
+  font-size: 5rem;
+}
+
+.icons > div {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0.5rem;
+  margin: 1rem;
 }
